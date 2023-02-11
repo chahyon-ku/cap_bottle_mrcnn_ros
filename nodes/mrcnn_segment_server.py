@@ -9,10 +9,10 @@ import argparse
 # The argument
 parser = argparse.ArgumentParser()
 parser.add_argument('--config_path', type=str,
-                    default='/home/wei/catkin_ws/src/mrcnn_ros/config/e2e_mask_rcnn_R_50_FPN_1x_caffe2_singleobj.yaml',
+                    default='/home/rpm/Lab/cap_bottle/kpam/src/mrcnn_ros/config/e2e_mask_rcnn_R_50_FPN_1x_caffe2_singleobj.yaml',
                     help='Absolute path to maskrcnn_benchmark config.')
 parser.add_argument('--net_path', type=str,
-                    default='/home/wei/data/pdc/coco/output_mug/model_0120000.pth',
+                    default='/home/rpm/Lab/cap_bottle/kpam/src/mrcnn_ros/models/model_0120000.pth',
                     help='Absolute path to trained network. If empty, use the network in the config file.')
 
 # The maskrcnn staff
